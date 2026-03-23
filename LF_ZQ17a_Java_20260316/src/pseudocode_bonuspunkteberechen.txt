@@ -1,0 +1,18 @@
+PROGRAMMSTART BonuspunkteBerechnen
+FESTLEGEN Punkte als GANZZAHL
+FESTLEGEN Punkte als GANZZAHL
+
+punkte := 0
+
+FÜR runde 1 BIS 5 MIT SCHRITTWEITE 1
+	punkte := punkte + 3
+ENDE FÜR 
+
+FALLS punkte >= 15
+	AUSGABE: Bonus freigeschaltet
+ENDE FALLS
+SONST
+	AUSGABE: Kein Bonus
+ENDE SONST
+
+PROGRAMMENDE
