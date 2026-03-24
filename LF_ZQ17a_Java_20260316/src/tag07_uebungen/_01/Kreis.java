@@ -1,4 +1,4 @@
-package tag07_uebungen;
+package tag07_uebungen._01;
 
 public class Kreis {
 	private double radius;

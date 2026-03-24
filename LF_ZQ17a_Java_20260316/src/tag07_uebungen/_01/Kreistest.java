@@ -1,4 +1,4 @@
-package tag07_uebungen;
+package tag07_uebungen._01;
 
 import javax.swing.JOptionPane;
 
