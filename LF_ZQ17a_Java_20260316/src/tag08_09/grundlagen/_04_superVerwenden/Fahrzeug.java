@@ -1,0 +1,20 @@
+package tag08_09.grundlagen._04_superVerwenden;
+
+public class Fahrzeug {
+	protected String marke;
+	protected int geschwindigkeit;
+	
+	public Fahrzeug() {
+		this("unbekannt", 0);
+	}
+	
+	public Fahrzeug(String marke, int geschwindigkeit) {
+		this.marke = marke;
+		this.geschwindigkeit = geschwindigkeit;
+	}
+	
+	public void zeigeDetails() {
+		System.out.println("Marke: " + marke);
+		System.out.println("Geschwindigkeit: " + geschwindigkeit);
+	}
+}
